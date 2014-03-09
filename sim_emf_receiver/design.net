@@ -1,0 +1,32 @@
+* C:\Documents and Settings\Michael Walsh\My Documents\SIMetrix\ReceiverOpAmp\ReceiverOpAmp_2k_V003.sxsch
+*#SIMETRIX
+X1 R6_P R3_P VCC 0 PRE_AMP_OUT TL072 pinnames: inp inn vsp vsn out
+V1 VCC 0 9
+X2 R2_P R8_P VCC 0 X2_out TL072 pinnames: inp inn vsp vsn out
+V2 ANT 0 AC 100u 0
+R1 R2_P 0 1Meg
+R2 R2_P R2_N 22Meg
+R3 R3_P R3_N 1K
+R4 PRE_AMP_OUT R3_P 22k
+R5 VCC R2_P 1Meg
+R6 R6_P R2_N 4.7k
+R7 PRE_AMP_OUT R12_P 100
+R8 R8_P R12_P 47k
+R9 X2_out R8_P 1Meg
+R10 PHONO_OUT C7_P 100
+R11 PHONO_OUT 0 1Meg
+R12 R12_P R12_N 100k
+C1 R2_N ANT 1u  
+C2 R2_N 0 4.7p  
+C3 R3_N 0 200n  
+C4 VCC 0 100u  
+C5 R12_N 0 1u  
+C6 R2_P 0 1u  
+C7 C7_P X2_out 1u  
+C8 PRE_AMP_OUT R3_P 1.5n  
+C9 X2_out R8_P 20p  
+.GRAPH PHONO_OUT curveLabel= PHONO_OUT nowarn=true ylog=auto xlog=auto 
+.GRAPH PRE_AMP_OUT curveLabel= PRE_AMP_OUT nowarn=true ylog=auto xlog=auto 
+.GRAPH ANT curveLabel= ANT nowarn=true ylog=auto xlog=auto 
+.AC DEC 25 1 1Meg
+
