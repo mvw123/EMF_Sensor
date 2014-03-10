@@ -1,14 +1,36 @@
 EMF_Sensor
 ==========
+Brief
+-----
+This is an open hardware design for an EMF sensor and transmitter circuit (sometimes known as an ELF sensor or warbler) which can be used to send a 2kHz audible tone down a wire with the transmitter and sense the presence of the wire with the receiver. Its uses are for hidden wire and wire boundary detection. 
 
-Schematic, layout, gebers for an EMF sensor and transmitter 
-(sometimes known as an ELF sensor) circuit which can be used 
-to send a 2kHz adible signal down a wire with the transmitter 
-and sense the presence of the wire with the receiver. 
+This is NOT for connection to live mains or hazardous voltages - there are no safety caps or barriers in the circuit. 
 
-Requires external parts not shown on the circuit schematic.
+The circuit is created with Ki-CAD, an open source EDA tool for schematic capture and PCB layout. There are two boards in the design seperated by a snap off region. One for the transmitter, one for the receiver. The design should be battery powered from a 9v battery for each board.
 
-9v battery, 
+The circuit is designed so that it can be used for other educational purposes and for general operational amplifier design. 
+
+MVW  www.leedshackspace.org.uk/
+
+Details
+-------
+The PCB uses a mixture of through hole and SMD 1206 size components. These parts were chosen as a trade off between size and ease of fitting. Through hole axial leaded resistors and capacitors can be soldered onto the 1206 SMD pads if desired by soldering the parts vertically. SMD parts are used to reduce the PCB size which is the most costly part of the design. The PCB could have been smaller, but the aim is to allow beginners to be able to easily solder to the pads as well as experts. 
+
+A Simetrix simulation file is included. Simetrix is a windows simulator which can be downloaded and used freely up to its node limit which is more than adequate for most situations. Please download and tweak it, i think you'll find some components are not entirely needed.
+
+CAD A (Rev 0.01) [NOT TESTED] March 2014
+-----------------------------
+First dev release, not tested.
+Board is being produced by oshpark. Price for 3 boards (in march 2014) is approximately $25
+
+Ki-CAD created schematic, layout, gebers
+Simetrix simulation file
+BOM needs to be finalised.
+
+Requires external parts not shown on the circuit schematic. eg
+9v battery 
 battery connector
 2.5mm earphone adapter
-wire
+wire - length TBD
+
+
