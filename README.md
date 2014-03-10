@@ -21,6 +21,10 @@ A Simetrix simulation file is included. Simetrix is a windows simulator which ca
 CAD A (Rev 0.01) [NOT TESTED] March 2014
 -----------------------------
 First dev release, not tested.
+Known bugs exist. 
+The wien bridge oscillator is wired incorrectly.
+The oscillator resistor values need setting up (board released whilst the values are tweaked)
+
 The board is being produced by oshpark which ships internationally. Price for the minimum 3 boards (in march 2014) is approximately $25
 
 Ki-CAD created schematic, layout, gebers
@@ -32,5 +36,4 @@ Requires external parts not shown on the circuit schematic. eg
 battery connector
 2.5mm earphone adapter
 wire - length TBD
-
 
