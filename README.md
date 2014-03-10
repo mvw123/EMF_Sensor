@@ -21,7 +21,7 @@ A Simetrix simulation file is included. Simetrix is a windows simulator which ca
 CAD A (Rev 0.01) [NOT TESTED] March 2014
 -----------------------------
 First dev release, not tested.
-Board is being produced by oshpark. Price for 3 boards (in march 2014) is approximately $25
+The board is being produced by oshpark which ships internationally. Price for the minimum 3 boards (in march 2014) is approximately $25
 
 Ki-CAD created schematic, layout, gebers
 Simetrix simulation file
