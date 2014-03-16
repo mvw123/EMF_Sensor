@@ -1,641 +1,542 @@
-# EESchema Netlist Version 1.1 created  Sat 01 Mar 2014 15:21:54 GMT
-(
- ( /52F77682/53066636 $noname  C206 10uF {Lib=CP1}
-  (    1 /RelaxationOscillator/IN1+ )
-  (    2 GND )
- )
- ( /52F77682/530665C4 $noname  C205 10uF {Lib=CP1}
-  (    1 N-000014 )
-  (    2 GND )
- )
- ( /52F77682/5300D8E7 $noname  C204 10uF {Lib=CP1}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /52F77682/52FBEF55 $noname  R214 2k {Lib=R}
-  (    1 N-000012 )
-  (    2 GND )
- )
- ( /52F77682/52FBEF2F $noname  R216 2k {Lib=R}
-  (    1 N-000001 )
-  (    2 GND )
- )
- ( /52F77682/52FBE76E $noname  R212 2k {Lib=R}
-  (    1 /RelaxationOscillator/SINUSOID )
-  (    2 GND )
- )
- ( /52F77682/52FBE744 $noname  R215 10R {Lib=R}
-  (    1 /RelaxationOscillator/SINUSOID )
-  (    2 N-000002 )
- )
- ( /52F77682/52FBE6C5 $noname  R211 2k {Lib=R}
-  (    1 /RelaxationOscillator/SQUARE )
-  (    2 GND )
- )
- ( /52F77682/52FBE6A0 $noname  R213 10R {Lib=R}
-  (    1 /RelaxationOscillator/SQUARE )
-  (    2 N-000003 )
- )
- ( /52F77682/52F7E359 $noname  BT201 9V_C {Lib=BATTERY}
-  (    1 N-000004 )
-  (    2 GND )
- )
- ( /52F77682/52F7E324 $noname  SW201 SPST {Lib=SPST}
-  (    1 N-000004 )
-  (    2 VCC )
- )
- ( /52F77682/52F7860D $noname  P202 CONN_2 {Lib=CONN_2}
-  (    1 N-000003 )
-  (    2 N-000012 )
- )
- ( /52F77682/52F785DF $noname  P203 CONN_2 {Lib=CONN_2}
-  (    1 N-000002 )
-  (    2 N-000001 )
- )
- ( /52F77682/52F7841B $noname  R202 100k {Lib=R}
-  (    1 N-000014 )
-  (    2 GND )
- )
- ( /52F77682/52F78416 $noname  R201 100k {Lib=R}
-  (    1 VCC )
-  (    2 N-000014 )
- )
- ( /52F77682/52F782CA $noname  R205 100k {Lib=R}
-  (    1 N-000014 )
-  (    2 /RelaxationOscillator/IN2- )
- )
- ( /52F77682/52F782C7 $noname  R208 100k {Lib=R}
-  (    1 /RelaxationOscillator/IN2- )
-  (    2 /RelaxationOscillator/SINUSOID )
- )
- ( /52F77682/52F7804E $noname  R210 20k {Lib=R}
-  (    1 /RelaxationOscillator/IN2+ )
-  (    2 GND )
- )
- ( /52F77682/52F7804B $noname  C202 10n {Lib=C}
-  (    1 /RelaxationOscillator/IN2+ )
-  (    2 GND )
- )
- ( /52F77682/52F78039 $noname  C203 10n {Lib=C}
-  (    1 /RelaxationOscillator/SINUSOID )
-  (    2 N-000010 )
- )
- ( /52F77682/52F77F86 $noname  C201 2.2n {Lib=C}
-  (    1 /RelaxationOscillator/IN1- )
-  (    2 GND )
- )
- ( /52F77682/52F77EC9 $noname  R204 100k {Lib=R}
-  (    1 /RelaxationOscillator/IN1+ )
-  (    2 GND )
- )
- ( /52F77682/52F77EC4 $noname  R203 100k {Lib=R}
-  (    1 VCC )
-  (    2 /RelaxationOscillator/IN1+ )
- )
- ( /52F77682/52F77E60 $noname  R206 100k {Lib=R}
-  (    1 /RelaxationOscillator/IN1+ )
-  (    2 /RelaxationOscillator/SQUARE )
- )
- ( /52F77682/52F77E5B $noname  R209 20k {Lib=R}
-  (    1 N-000010 )
-  (    2 /RelaxationOscillator/IN2+ )
- )
- ( /52F77682/52F77E55 $noname  R207 100k {Lib=R}
-  (    1 /RelaxationOscillator/IN1- )
-  (    2 /RelaxationOscillator/SQUARE )
- )
- ( /52F77682/52F77C65 $noname  U201 LM358N {Lib=LM358N}
-  (    1 /RelaxationOscillator/SQUARE )
-  (    2 /RelaxationOscillator/IN1- )
-  (    3 /RelaxationOscillator/IN1+ )
-  (    4 GND )
-  (    5 /RelaxationOscillator/IN2+ )
-  (    6 /RelaxationOscillator/IN2- )
-  (    7 /RelaxationOscillator/SINUSOID )
-  (    8 VCC )
- )
- ( /52F7C1A5/53066709 $noname  C309 20pF {Lib=C}
-  (    1 N-000026 )
-  (    2 N-000019 )
- )
- ( /52F7C1A5/530666C2 $noname  C308 1.5nF {Lib=C}
-  (    1 N-000027 )
-  (    2 /EMF_Receiver/PREAMP_OUT )
- )
- ( /52F7C1A5/5300DAE8 $noname  P302 CONN_2 {Lib=CONN_2}
-  (    1 /EMF_Receiver/PHONO_OUT )
-  (    2 GND )
- )
- ( /52F7C1A5/5300D821 $noname  C301 0.01uF {Lib=C}
-  (    1 /EMF_Receiver/ANT )
-  (    2 N-000020 )
- )
- ( /52F7C1A5/52F7E0F2 $noname  R301 0R0 {Lib=R}
-  (    1 /EMF_Receiver/ANT_RETN )
-  (    2 GND )
- )
- ( /52F7C1A5/52F7E0C7 $noname  P301 CONN_2 {Lib=CONN_2}
-  (    1 /EMF_Receiver/ANT )
-  (    2 /EMF_Receiver/ANT_RETN )
- )
- ( /52F7C1A5/52F7E015 $noname  R311 1Meg {Lib=R}
-  (    1 /EMF_Receiver/PHONO_OUT )
-  (    2 GND )
- )
- ( /52F7C1A5/52F7DDA9 $noname  C305 1uF {Lib=CP1}
-  (    1 N-000017 )
-  (    2 GND )
- )
- ( /52F7C1A5/52F7DD37 $noname  C303 220nF {Lib=CP1}
-  (    1 N-000021 )
-  (    2 GND )
- )
- ( /52F7C1A5/52F7DD19 $noname  C306 1uF {Lib=CP1}
-  (    1 N-000023 )
-  (    2 GND )
- )
- ( /52F7C1A5/52F7DCBC $noname  C307 1uF {Lib=CP1}
-  (    1 N-000019 )
-  (    2 N-000018 )
- )
- ( /52F7C1A5/52F7D86E $noname  U301 TL072 {Lib=TL072}
-  (    1 /EMF_Receiver/PREAMP_OUT )
-  (    2 N-000027 )
-  (    3 N-000024 )
-  (    4 GND )
-  (    5 N-000023 )
-  (    6 N-000026 )
-  (    7 N-000019 )
-  (    8 VAA )
- )
- ( /52F7C1A5/52F7D23F $noname  SW301 SPST {Lib=SPST}
-  (    1 VAA )
-  (    2 N-000025 )
- )
- ( /52F7C1A5/52F7CCBB $noname  BT301 9V_C {Lib=BATTERY}
-  (    1 N-000025 )
-  (    2 GND )
- )
- ( /52F7C1A5/52F7CC74 $noname  C304 100uF {Lib=CP1}
-  (    1 VAA )
-  (    2 GND )
- )
- ( /52F7C1A5/52F7CBB0 $noname  C302 4.7pF {Lib=C}
-  (    1 N-000020 )
-  (    2 GND )
- )
- ( /52F7C1A5/52F7CB5E $noname  RV301 100k {Lib=POT}
-  (    1 N-000017 )
-  (    2 /EMF_Receiver/AMP2_INPUT )
-  (    3 /EMF_Receiver/PREAMP_OUT )
- )
- ( /52F7C1A5/52F7CB3D $noname  R310 100R {Lib=R}
-  (    1 N-000018 )
-  (    2 /EMF_Receiver/PHONO_OUT )
- )
- ( /52F7C1A5/52F7CB31 $noname  R309 1Meg {Lib=R}
-  (    1 N-000026 )
-  (    2 N-000019 )
- )
- ( /52F7C1A5/52F7CB2C $noname  R308 47k {Lib=R}
-  (    1 /EMF_Receiver/AMP2_INPUT )
-  (    2 N-000026 )
- )
- ( /52F7C1A5/52F7CB18 $noname  R307 22k {Lib=R}
-  (    1 N-000027 )
-  (    2 /EMF_Receiver/PREAMP_OUT )
- )
- ( /52F7C1A5/52F7CB0F $noname  R304 4.7k {Lib=R}
-  (    1 N-000020 )
-  (    2 N-000024 )
- )
- ( /52F7C1A5/52F7CB06 $noname  R306 1k {Lib=R}
-  (    1 N-000027 )
-  (    2 N-000021 )
- )
- ( /52F7C1A5/52F7CAFD $noname  R305 1Meg {Lib=R}
-  (    1 N-000023 )
-  (    2 VAA )
- )
- ( /52F7C1A5/52F7CAF9 $noname  R303 22Meg {Lib=R}
-  (    1 N-000023 )
-  (    2 N-000020 )
- )
- ( /52F7C1A5/52F7CAF1 $noname  R302 1Meg {Lib=R}
-  (    1 N-000023 )
-  (    2 GND )
- )
-)
-*
-{ Allowed footprints by component:
-$component C206
- CP*
- SM*
-$endlist
-$component C205
- CP*
- SM*
-$endlist
-$component C204
- CP*
- SM*
-$endlist
-$component R214
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R216
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R212
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R215
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R211
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R213
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R202
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R201
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R205
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R208
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R210
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C202
- SM*
- C?
- C1-1
-$endlist
-$component C203
- SM*
- C?
- C1-1
-$endlist
-$component C201
- SM*
- C?
- C1-1
-$endlist
-$component R204
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R203
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R206
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R209
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R207
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C309
- SM*
- C?
- C1-1
-$endlist
-$component C308
- SM*
- C?
- C1-1
-$endlist
-$component C301
- SM*
- C?
- C1-1
-$endlist
-$component R301
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R311
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C305
- CP*
- SM*
-$endlist
-$component C303
- CP*
- SM*
-$endlist
-$component C306
- CP*
- SM*
-$endlist
-$component C307
- CP*
- SM*
-$endlist
-$component C304
- CP*
- SM*
-$endlist
-$component C302
- SM*
- C?
- C1-1
-$endlist
-$component R310
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R309
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R308
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R307
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R304
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R306
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R305
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R303
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R302
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "" ""
- R216 1
- P203 2
-Net 2 "" ""
- R215 2
- P203 1
-Net 3 "" ""
- P202 1
- R213 2
-Net 4 "" ""
- BT201 1
- SW201 1
-Net 5 "GND" "GND"
- R301 2
- C202 2
- C201 2
- BT301 2
- U301 4
- C302 2
- R311 2
- R210 2
- C306 2
- C305 2
- C303 2
- P302 2
- R302 2
- C206 2
- C205 2
- C204 2
- R212 2
- BT201 2
- U201 4
- R211 2
- R204 2
- C304 2
- R202 2
- R214 2
- R216 2
-Net 6 "/RelaxationOscillator/IN1-" "IN1-"
- R207 1
- U201 2
- C201 1
-Net 7 "/RelaxationOscillator/IN2+" "IN2+"
- R209 2
- R210 1
- C202 1
- U201 5
-Net 8 "VCC" "VCC"
- R203 1
- R201 1
- C204 1
- SW201 2
- U201 8
-Net 9 "/RelaxationOscillator/SINUSOID" "SINUSOID"
- R215 1
- R208 2
- R212 1
- C203 1
- U201 7
-Net 10 "" ""
- C203 2
- R209 1
-Net 11 "/RelaxationOscillator/IN2-" "IN2-"
- R208 1
- R205 2
- U201 6
-Net 12 "" ""
- P202 2
- R214 1
-Net 13 "/RelaxationOscillator/SQUARE" "SQUARE"
- R207 2
- U201 1
- R211 1
- R206 2
- R213 1
-Net 14 "" ""
- R201 2
- R202 1
- R205 1
- C205 1
-Net 15 "/RelaxationOscillator/IN1+" "IN1+"
- R206 1
- R203 2
- U201 3
- C206 1
- R204 1
-Net 17 "" ""
- C305 1
- RV301 1
-Net 18 "" ""
- R310 1
- C307 2
-Net 19 "" ""
- C309 2
- C307 1
- U301 7
- R309 2
-Net 20 "" ""
- C302 1
- R303 2
- R304 1
- C301 2
-Net 21 "" ""
- R306 2
- C303 1
-Net 22 "VAA" "VAA"
- U301 8
- C304 1
- SW301 1
- R305 2
-Net 23 "" ""
- C306 1
- R305 1
- U301 5
- R303 1
- R302 1
-Net 24 "" ""
- U301 3
- R304 2
-Net 25 "" ""
- BT301 1
- SW301 2
-Net 26 "" ""
- U301 6
- C309 1
- R308 2
- R309 1
-Net 27 "" ""
- R307 1
- C308 1
- R306 1
- U301 2
-Net 28 "/EMF_Receiver/PREAMP_OUT" "PREAMP_OUT"
- RV301 3
- R307 2
- C308 2
- U301 1
-Net 29 "/EMF_Receiver/PHONO_OUT" "PHONO_OUT"
- R310 2
- R311 1
- P302 1
-Net 30 "/EMF_Receiver/AMP2_INPUT" "AMP2_INPUT"
- RV301 2
- R308 1
-Net 31 "/EMF_Receiver/ANT_RETN" "ANT_RETN"
- P301 2
- R301 1
-Net 32 "/EMF_Receiver/ANT" "ANT"
- C301 1
- P301 1
-}
-#End
+(export (version D)
+  (design
+    (source "C:/Documents and Settings/Michael Walsh/My Documents/GitHub/EMF_Sensor/Oscillator.sch")
+    (date "16/03/2014 18:40:05")
+    (tool "eeschema (2013-07-07 BZR 4022)-stable"))
+  (components
+    (comp (ref C206)
+      (value 100uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 53066636))
+    (comp (ref C205)
+      (value 100uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 530665C4))
+    (comp (ref C204)
+      (value 100uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 5300D8E7))
+    (comp (ref R214)
+      (value 2k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52FBEF55))
+    (comp (ref R216)
+      (value 2k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52FBEF2F))
+    (comp (ref R212)
+      (value 2k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52FBE76E))
+    (comp (ref R215)
+      (value 10R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52FBE744))
+    (comp (ref R211)
+      (value 2k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52FBE6C5))
+    (comp (ref R213)
+      (value 10R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52FBE6A0))
+    (comp (ref BT201)
+      (value 9V_C)
+      (libsource (lib device) (part BATTERY))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F7E359))
+    (comp (ref SW201)
+      (value SPST)
+      (libsource (lib device) (part SPST))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F7E324))
+    (comp (ref P202)
+      (value CONN_2)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F7860D))
+    (comp (ref P203)
+      (value CONN_2)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F785DF))
+    (comp (ref R202)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F7841B))
+    (comp (ref R201)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F78416))
+    (comp (ref R205)
+      (value 10k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F782CA))
+    (comp (ref R208)
+      (value 20k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F782C7))
+    (comp (ref R210)
+      (value 6.8k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F7804E))
+    (comp (ref C202)
+      (value 10n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F7804B))
+    (comp (ref C203)
+      (value 10n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F78039))
+    (comp (ref C201)
+      (value 10n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F77F86))
+    (comp (ref R204)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F77EC9))
+    (comp (ref R203)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F77EC4))
+    (comp (ref R206)
+      (value 20k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F77E60))
+    (comp (ref R209)
+      (value 6.8k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F77E5B))
+    (comp (ref R207)
+      (value 20k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 52F77E55))
+    (comp (ref R217)
+      (value 20k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 531F734E))
+    (comp (ref U201)
+      (value TL072)
+      (libsource (lib linear) (part TL072))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 531F7369))
+    (comp (ref R218)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /RelaxationOscillator/) (tstamps /52F77682/))
+      (tstamp 531F8C96))
+    (comp (ref C309)
+      (value 20pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 53066709))
+    (comp (ref C308)
+      (value 1.5nF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 530666C2))
+    (comp (ref P302)
+      (value CONN_2)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 5300DAE8))
+    (comp (ref C301)
+      (value 0.01uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 5300D821))
+    (comp (ref R301)
+      (value 0R0)
+      (libsource (lib device) (part R))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7E0F2))
+    (comp (ref P301)
+      (value CONN_2)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7E0C7))
+    (comp (ref R311)
+      (value 1Meg)
+      (libsource (lib device) (part R))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7E015))
+    (comp (ref C305)
+      (value 1uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7DDA9))
+    (comp (ref C303)
+      (value 220nF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7DD37))
+    (comp (ref C306)
+      (value 1uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7DD19))
+    (comp (ref C307)
+      (value 1uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7DCBC))
+    (comp (ref U301)
+      (value TL072)
+      (libsource (lib linear) (part TL072))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7D86E))
+    (comp (ref SW301)
+      (value SPST)
+      (libsource (lib device) (part SPST))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7D23F))
+    (comp (ref BT301)
+      (value 9V_C)
+      (libsource (lib device) (part BATTERY))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CCBB))
+    (comp (ref C304)
+      (value 100uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CC74))
+    (comp (ref C302)
+      (value 4.7pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CBB0))
+    (comp (ref RV301)
+      (value 100k)
+      (libsource (lib device) (part POT))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CB5E))
+    (comp (ref R310)
+      (value 100R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CB3D))
+    (comp (ref R309)
+      (value 1Meg)
+      (libsource (lib device) (part R))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CB31))
+    (comp (ref R308)
+      (value 47k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CB2C))
+    (comp (ref R307)
+      (value 22k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CB18))
+    (comp (ref R304)
+      (value 4.7k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CB0F))
+    (comp (ref R306)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CB06))
+    (comp (ref R305)
+      (value 1Meg)
+      (libsource (lib device) (part R))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CAFD))
+    (comp (ref R303)
+      (value 22Meg)
+      (libsource (lib device) (part R))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CAF9))
+    (comp (ref R302)
+      (value 1Meg)
+      (libsource (lib device) (part R))
+      (sheetpath (names /EMF_Receiver/) (tstamps /52F7C1A5/))
+      (tstamp 52F7CAF1)))
+  (libparts
+    (libpart (lib device) (part BATTERY)
+      (fields
+        (field (name Reference) BT)
+        (field (name Value) BATTERY)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name +) (type passive))
+        (pin (num 2) (name -) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CP1)
+      (description "Condensateur polarise")
+      (footprints
+        (fp CP*)
+        (fp SM*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP1)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part POT)
+      (description Potentionmetre)
+      (fields
+        (field (name Reference) RV)
+        (field (name Value) POT)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part SPST)
+      (description "Interrupteur simple")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SPST)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name 1) (type input))
+        (pin (num 2) (name 2) (type input))))
+    (libpart (lib conn) (part CONN_2)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib linear) (part LM358)
+      (description "Dual Op amp (low power)")
+      (docs ns/lm158.pdf)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) LM358))
+      (pins
+        (pin (num 1) (name ~) (type output))
+        (pin (num 2) (name -) (type input))
+        (pin (num 3) (name +) (type input))
+        (pin (num 4) (name V-) (type power_in))
+        (pin (num 5) (name +) (type input))
+        (pin (num 6) (name -) (type input))
+        (pin (num 7) (name ~) (type output))
+        (pin (num 8) (name V+) (type power_in)))))
+  (libraries
+    (library (logical linear)
+      (uri "C:\\Program Files\\KiCad\\share\\library\\linear.lib"))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\library\\device.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\library\\conn.lib")))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref R311) (pin 2))
+      (node (ref R301) (pin 2))
+      (node (ref R211) (pin 2))
+      (node (ref BT201) (pin 2))
+      (node (ref U201) (pin 4))
+      (node (ref U301) (pin 4))
+      (node (ref R212) (pin 2))
+      (node (ref C302) (pin 2))
+      (node (ref C303) (pin 2))
+      (node (ref C306) (pin 2))
+      (node (ref C305) (pin 2))
+      (node (ref P302) (pin 2))
+      (node (ref C206) (pin 2))
+      (node (ref C205) (pin 2))
+      (node (ref C204) (pin 2))
+      (node (ref R302) (pin 2))
+      (node (ref R214) (pin 2))
+      (node (ref R216) (pin 2))
+      (node (ref R202) (pin 2))
+      (node (ref R204) (pin 2))
+      (node (ref C201) (pin 2))
+      (node (ref C304) (pin 2))
+      (node (ref BT301) (pin 2)))
+    (net (code 2) (name VCC)
+      (node (ref SW201) (pin 2))
+      (node (ref R203) (pin 1))
+      (node (ref C204) (pin 1))
+      (node (ref R201) (pin 1))
+      (node (ref U201) (pin 8)))
+    (net (code 3) (name "")
+      (node (ref C203) (pin 2))
+      (node (ref R209) (pin 1)))
+    (net (code 4) (name "")
+      (node (ref R207) (pin 1))
+      (node (ref U201) (pin 3))
+      (node (ref R217) (pin 2)))
+    (net (code 5) (name "")
+      (node (ref R214) (pin 1))
+      (node (ref P202) (pin 2)))
+    (net (code 6) (name "")
+      (node (ref R215) (pin 2))
+      (node (ref P203) (pin 1)))
+    (net (code 7) (name "")
+      (node (ref R216) (pin 1))
+      (node (ref P203) (pin 2)))
+    (net (code 8) (name /RelaxationOscillator/IN2+)
+      (node (ref R205) (pin 2))
+      (node (ref R208) (pin 1))
+      (node (ref U201) (pin 6)))
+    (net (code 9) (name "")
+      (node (ref U201) (pin 5))
+      (node (ref R210) (pin 1))
+      (node (ref C202) (pin 1))
+      (node (ref R209) (pin 2)))
+    (net (code 10) (name "")
+      (node (ref R218) (pin 1))
+      (node (ref R208) (pin 2)))
+    (net (code 11) (name "")
+      (node (ref R204) (pin 1))
+      (node (ref C206) (pin 1))
+      (node (ref R203) (pin 2))
+      (node (ref R217) (pin 1)))
+    (net (code 12) (name /RelaxationOscillator/SQUARE)
+      (node (ref R207) (pin 2))
+      (node (ref R206) (pin 2))
+      (node (ref U201) (pin 1))
+      (node (ref R211) (pin 1))
+      (node (ref R213) (pin 1)))
+    (net (code 13) (name "")
+      (node (ref SW201) (pin 1))
+      (node (ref BT201) (pin 1)))
+    (net (code 14) (name "")
+      (node (ref P202) (pin 1))
+      (node (ref R213) (pin 2)))
+    (net (code 17) (name /RelaxationOscillator/IN1+)
+      (node (ref C201) (pin 1))
+      (node (ref R206) (pin 1))
+      (node (ref U201) (pin 2)))
+    (net (code 18) (name /RelaxationOscillator/SINUSOID)
+      (node (ref C203) (pin 1))
+      (node (ref R212) (pin 1))
+      (node (ref U201) (pin 7))
+      (node (ref R218) (pin 2))
+      (node (ref R215) (pin 1)))
+    (net (code 19) (name "")
+      (node (ref C205) (pin 1))
+      (node (ref R210) (pin 2))
+      (node (ref R205) (pin 1))
+      (node (ref R201) (pin 2))
+      (node (ref R202) (pin 1))
+      (node (ref C202) (pin 2)))
+    (net (code 21) (name "")
+      (node (ref C305) (pin 1))
+      (node (ref RV301) (pin 1)))
+    (net (code 22) (name "")
+      (node (ref R310) (pin 1))
+      (node (ref C307) (pin 2)))
+    (net (code 23) (name "")
+      (node (ref C307) (pin 1))
+      (node (ref C309) (pin 2))
+      (node (ref U301) (pin 7))
+      (node (ref R309) (pin 2)))
+    (net (code 24) (name "")
+      (node (ref C302) (pin 1))
+      (node (ref C301) (pin 2))
+      (node (ref R303) (pin 2))
+      (node (ref R304) (pin 1)))
+    (net (code 25) (name "")
+      (node (ref R306) (pin 2))
+      (node (ref C303) (pin 1)))
+    (net (code 26) (name VAA)
+      (node (ref R305) (pin 2))
+      (node (ref SW301) (pin 1))
+      (node (ref C304) (pin 1))
+      (node (ref U301) (pin 8)))
+    (net (code 27) (name "")
+      (node (ref U301) (pin 5))
+      (node (ref C306) (pin 1))
+      (node (ref R302) (pin 1))
+      (node (ref R303) (pin 1))
+      (node (ref R305) (pin 1)))
+    (net (code 28) (name "")
+      (node (ref R304) (pin 2))
+      (node (ref U301) (pin 3)))
+    (net (code 29) (name "")
+      (node (ref SW301) (pin 2))
+      (node (ref BT301) (pin 1)))
+    (net (code 30) (name "")
+      (node (ref C309) (pin 1))
+      (node (ref R308) (pin 2))
+      (node (ref U301) (pin 6))
+      (node (ref R309) (pin 1)))
+    (net (code 31) (name "")
+      (node (ref C308) (pin 1))
+      (node (ref U301) (pin 2))
+      (node (ref R306) (pin 1))
+      (node (ref R307) (pin 1)))
+    (net (code 32) (name /EMF_Receiver/PREAMP_OUT)
+      (node (ref C308) (pin 2))
+      (node (ref R307) (pin 2))
+      (node (ref RV301) (pin 3))
+      (node (ref U301) (pin 1)))
+    (net (code 33) (name /EMF_Receiver/PHONO_OUT)
+      (node (ref R311) (pin 1))
+      (node (ref R310) (pin 2))
+      (node (ref P302) (pin 1)))
+    (net (code 34) (name /EMF_Receiver/AMP2_INPUT)
+      (node (ref RV301) (pin 2))
+      (node (ref R308) (pin 1)))
+    (net (code 35) (name /EMF_Receiver/ANT_RETN)
+      (node (ref P301) (pin 2))
+      (node (ref R301) (pin 1)))
+    (net (code 36) (name /EMF_Receiver/ANT)
+      (node (ref P301) (pin 1))
+      (node (ref C301) (pin 1)))))

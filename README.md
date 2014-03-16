@@ -18,12 +18,27 @@ The PCB uses a mixture of through hole and SMD 1206 size components. These parts
 
 A Simetrix simulation file is included. Simetrix is a windows simulator which can be downloaded and used freely up to its node limit which is more than adequate for most situations. Please download and tweak it, i think you'll find some components are not entirely needed.
 
+
+CAD B (Rev 0.02) [WORK IN PROGRESS] March 2014
+-----------------------------
+Schematic and PCB to fix bug stopping the wien bridge oscillator working
+schematic abnd PCB updated to add an inline resistor for the voltage reference for the amplifier
+PCB needs updates from the schematic. 
+BOM not available
+Circuits need updating and would benefit from splitting the two circuits into seperate designs
+
+The design requires external parts not shown on the circuit schematic. eg:-
+9v battery 
+battery connector
+2.5mm earphone adapter
+wire - length TBD
+
 CAD A (Rev 0.01) [NOT TESTED] March 2014
 -----------------------------
-First dev release, not tested.
+First dev release, not tested - awaiting return of PCBs. 
 Known bugs exist. 
 The wien bridge oscillator is wired incorrectly.
-The oscillator resistor values need setting up (board released whilst the values are tweaked)
+The oscillator resistor/capacitor values need setting up (board released whilst the values are tweaked)
 
 The board is being produced by oshpark which ships internationally. Price for the minimum 3 boards (in march 2014) is approximately $25
 

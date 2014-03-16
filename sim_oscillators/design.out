@@ -1,15 +1,15 @@
-*********************************************************************************************
-***                                                                                       ***
-*** SIMetrix/SIMPLIS Intro Version 7.10m (x86) - 11/03/2014 21:11:01                      ***
-*** Platform: Windows XP                                                                  ***
-*** Architecture: x86                                                                     ***
-*** Serial Number:                                                                        ***
-*** User:                                                                                 ***
-***                                                                                       ***
-*** TITLE:   * C:\sandbox\EMF_Sensor\sim_oscillators\WeinBridgeSineWaveOscillator_v5.sxsch***
-*** NETLIST: C:\sandbox\EMF_Sensor\sim_oscillators\design.net                             ***
-***                                                                                       ***
-*********************************************************************************************
+**********************************************************************************************************************************************
+***                                                                                                                                        ***
+*** SIMetrix/SIMPLIS Intro Version 7.10m (x86) - 16/03/2014 18:28:06                                                                       ***
+*** Platform: Windows XP                                                                                                                   ***
+*** Architecture: x86                                                                                                                      ***
+*** Serial Number:                                                                                                                         ***
+*** User:                                                                                                                                  ***
+***                                                                                                                                        ***
+*** TITLE:   * C:\Documents and Settings\Michael Walsh\My Documents\GitHub\EMF_Sensor\sim_oscillators\WeinBridgeSineWaveOscillator_v5.sxsch***
+*** NETLIST: C:\Documents and Settings\Michael Walsh\My Documents\GitHub\EMF_Sensor\sim_oscillators\design.net                             ***
+***                                                                                                                                        ***
+**********************************************************************************************************************************************
 
 ********************************************************************************
 ***                                                                          ***
@@ -18,14 +18,15 @@
 ********************************************************************************
 
 #SIMETRIX
-X2 R3_P X2_inn OP_PWR_POS 0 OutputConnector TL072 pinnames: inp inn vsp vsn out
 V1 OP_PWR_POS 0 9
+X2 R3_P X2_inn OP_PWR_POS 0 OutputConnector TL072 pinnames: inp inn vsp vsn out
 R1 X2_inn R3_N 10k
 R2 OP_PWR_POS R3_N 1k
 R3 R3_P R3_N 6.8k
 R4 OutputConnector X2_inn 21k
 R5 C1_N R3_P 6.8k
 R6 R3_N 0 1k
+R7 OutputConnector 0 2k
 C1 OutputConnector C1_N 10n IC=0  BRANCH={IF(ANALYSIS=2,1,0)}
 C2 R3_P R3_N 10n IC=0  BRANCH={IF(ANALYSIS=2,1,0)}
 C3 R3_N 0 100u  
@@ -79,7 +80,7 @@ VLN   0 92 DC 25
 
 ********************************************************************************
 ***                                                                          ***
-*** Starting Transient analysis at 21:11:01                                  ***
+*** Starting Transient analysis at 18:28:06                                  ***
 ***                                                                          ***
 *** Analysis card: .TRAN 0 100m 0 2m                                         ***
 ***                                                                          ***
@@ -133,11 +134,11 @@ branch       1            1
 
 Nominal temperature = 27
 Operating temperature = 27
-Total iterations = 41113
-Transient iterations = 41105
-Transient timepoints = 14432
-Accepted timepoints = 12971
-Total analysis time = 10.165
+Total iterations = 40989
+Transient iterations = 40981
+Transient timepoints = 14462
+Accepted timepoints = 13025
+Total analysis time = 2.003
 Transient time = 0
 Matrix reordering time = 0
 L-U decomposition time = 0
@@ -145,8 +146,8 @@ Matrix solve time = 0
 Load time = 0
 Transient L-U decomp time = 0
 Transient solve time = 0
-Circuit build time = 0.04
-Simulator initialise time = 0.01
+Circuit build time = 0.03
+Simulator initialise time = 0
 Data write time = 0
 Convergence test time = 0
 LTE time = 0
@@ -155,15 +156,15 @@ Diag. GMIN stepping iterations = 0
 Junc. GMIN stepping iterations = 0
 Source stepping iterations = 0
 PTA iterations = 0
-Number of matrix fill ins = -6
+Number of matrix fill ins = -4
 Number of initial matrix elements = 109
 Circuit equations = 31
 State vector size = 82
-Number of write buffer faults = 0
+Number of write buffer faults = 1
 
 Run statistics
 ==============
 
 Netlist read in time = 0
-Total run time = 10.275 seconds
-Analysis concluded 11/03/2014 21:11:11
+Total run time = 2.073 seconds
+Analysis concluded 16/03/2014 18:28:08
