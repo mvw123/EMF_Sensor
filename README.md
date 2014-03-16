@@ -24,6 +24,8 @@ CAD B (Rev 0.02) [WORK IN PROGRESS] March 2014
 Schematic and PCB updated to fix bug stopping the wien bridge oscillator working
 schematic and PCB updated to add an inline resistor for the voltage reference for one of the amplifiers
 This version was edited using the 7-7-2013 BZR 4022 -stable build for windows which upgrades the PCB to a new type and renames its file extension. 
+The Design would benefit from splitting into two seperate designs.
+The circuit schematic pages need renaming to something more sensible. 
 BOM not available
 
 The design requires external parts not shown on the circuit schematic. eg:-
