@@ -21,11 +21,10 @@ A Simetrix simulation file is included. Simetrix is a windows simulator which ca
 
 CAD B (Rev 0.02) [WORK IN PROGRESS] March 2014
 -----------------------------
-Schematic and PCB to fix bug stopping the wien bridge oscillator working
-schematic abnd PCB updated to add an inline resistor for the voltage reference for the amplifier
-PCB needs updates from the schematic. 
+Schematic and PCB updated to fix bug stopping the wien bridge oscillator working
+schematic and PCB updated to add an inline resistor for the voltage reference for one of the amplifiers
+This version was edited using the 7-7-2013 BZR 4022 -stable build for windows which upgrades the PCB to a new type and renames its file extension. 
 BOM not available
-Circuits need updating and would benefit from splitting the two circuits into seperate designs
 
 The design requires external parts not shown on the circuit schematic. eg:-
 9v battery 
