@@ -1,0 +1,16 @@
+* C:\sandbox\EMF_Sensor\sim_oscillators\WeinBridgeSineWaveOscillator_v5.sxsch
+*#SIMETRIX
+X2 R3_P X2_inn OP_PWR_POS 0 OutputConnector TL072 pinnames: inp inn vsp vsn out
+V1 OP_PWR_POS 0 9
+R1 X2_inn R3_N 10k
+R2 OP_PWR_POS R3_N 1k
+R3 R3_P R3_N 6.8k
+R4 OutputConnector X2_inn 21k
+R5 C1_N R3_P 6.8k
+R6 R3_N 0 1k
+C1 OutputConnector C1_N 10n IC=0  BRANCH={IF(ANALYSIS=2,1,0)}
+C2 R3_P R3_N 10n IC=0  BRANCH={IF(ANALYSIS=2,1,0)}
+C3 R3_N 0 100u  
+.GRAPH OutputConnector axisType="auto" persistence=-1 curveLabel="Output" xLog="auto" yLog="auto"  nowarn=true 
+.TRAN 0 100m 0 2m
+
