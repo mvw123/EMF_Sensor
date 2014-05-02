@@ -10,7 +10,7 @@ The circuit is created with Ki-CAD, an open source EDA tool for schematic captur
 
 The circuit is designed so that it can be used for other educational purposes and for general operational amplifier design. 
 
-MVW  www.leedshackspace.org.uk/
+MVW
 
 Details
 -------
