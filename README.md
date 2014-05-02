@@ -2,7 +2,7 @@ EMF_Sensor
 ==========
 Brief
 -----
-This is an open hardware design for an EMF sensor and transmitter circuit (sometimes known as an ELF sensor or warbler) which can be used to send a 2kHz audible tone down a wire with the transmitter and sense the presence of the wire with the receiver. Its uses are for hidden wire and wire boundary detection. 
+This is an open hardware design for an EMF sensor and transmitter circuit (sometimes known as an ELF sensor or warbler or a tone generator and detector) which can be used to send a 2kHz audible tone down a wire with the transmitter and sense the presence of the wire with the receiver. Its uses are for hidden wire and wire boundary detection. 
 
 This is NOT for connection to live mains or hazardous voltages - there are no safety caps or barriers in the circuit. 
 
