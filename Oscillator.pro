@@ -1,6 +1,6 @@
-update=20/03/2014 20:10:24
+update=31/05/2014 19:42:03
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -40,6 +40,8 @@ LibName10=pga_sockets
 LibName11=valves
 LibName12=Library_Extra/OHW/lib/OSHW-logo
 LibName13=Library_Extra/Fiducials_RevC_04Aug2012
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../Library_Extra
@@ -80,5 +82,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=Library_Extra/diy_connectors
-[general]
-version=1

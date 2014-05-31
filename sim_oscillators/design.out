@@ -1,15 +1,15 @@
-**********************************************************************************************************************************************
-***                                                                                                                                        ***
-*** SIMetrix/SIMPLIS Intro Version 7.10m (x86) - 16/03/2014 18:28:06                                                                       ***
-*** Platform: Windows XP                                                                                                                   ***
-*** Architecture: x86                                                                                                                      ***
-*** Serial Number:                                                                                                                         ***
-*** User:                                                                                                                                  ***
-***                                                                                                                                        ***
-*** TITLE:   * C:\Documents and Settings\Michael Walsh\My Documents\GitHub\EMF_Sensor\sim_oscillators\WeinBridgeSineWaveOscillator_v5.sxsch***
-*** NETLIST: C:\Documents and Settings\Michael Walsh\My Documents\GitHub\EMF_Sensor\sim_oscillators\design.net                             ***
-***                                                                                                                                        ***
-**********************************************************************************************************************************************
+********************************************************************************************************************************************
+***                                                                                                                                      ***
+*** SIMetrix/SIMPLIS Intro Version 7.10m (x86) - 26/05/2014 16:25:15                                                                     ***
+*** Platform: Windows XP                                                                                                                 ***
+*** Architecture: x86                                                                                                                    ***
+*** Serial Number:                                                                                                                       ***
+*** User:                                                                                                                                ***
+***                                                                                                                                      ***
+*** TITLE:   * C:\Documents and Settings\Michael Walsh\My Documents\GitHub\EMF_Sensor\sim_oscillators\RelaxationOscillator_TL072_v4.sxsch***
+*** NETLIST: C:\Documents and Settings\Michael Walsh\My Documents\GitHub\EMF_Sensor\sim_oscillators\design.net                           ***
+***                                                                                                                                      ***
+********************************************************************************************************************************************
 
 ********************************************************************************
 ***                                                                          ***
@@ -19,19 +19,18 @@
 
 #SIMETRIX
 V1 OP_PWR_POS 0 9
-X2 R3_P X2_inn OP_PWR_POS 0 OutputConnector TL072 pinnames: inp inn vsp vsn out
-R1 X2_inn R3_N 10k
-R2 OP_PWR_POS R3_N 1k
-R3 R3_P R3_N 6.8k
-R4 OutputConnector X2_inn 21k
-R5 C1_N R3_P 6.8k
-R6 R3_N 0 1k
-R7 OutputConnector 0 2k
-C1 OutputConnector C1_N 10n IC=0  BRANCH={IF(ANALYSIS=2,1,0)}
-C2 R3_P R3_N 10n IC=0  BRANCH={IF(ANALYSIS=2,1,0)}
-C3 R3_N 0 100u  
-.GRAPH OutputConnector axisType="auto" persistence=-1 curveLabel="Output" xLog="auto" yLog="auto"  nowarn=true 
-.TRAN 0 100m 0 2m
+X2 R2_N C1_P OP_PWR_POS 0 SquareOutput TL072 pinnames: inp inn vsp vsn out
+R1 SquareOutput C1_P 20k
+R2 SquareOutput R2_N 20k
+R3 R2_N R6_N 20k
+R4 SquareOutput 0 100Meg
+R6 OP_PWR_POS R6_N 1k
+R7 R6_N 0 1k
+C1 C1_P 0 10n IC=1  BRANCH={IF(ANALYSIS=2,1,0)}
+C2 R6_N 0 100u  
+.GRAPH SquareOutput axisType="auto" persistence=-1 curveLabel="Square" xLog="auto" yLog="auto"  nowarn=true 
+.GRAPH R6_N axisType="auto" persistence=-1 curveLabel="PotentialDivider" xLog="auto" yLog="auto"  nowarn=true 
+.TRAN 0 10m 0 2m
 .SUBCKT TL072    1 2 3 4 5
 *
 C1   11 12 3.498E-12
@@ -80,9 +79,9 @@ VLN   0 92 DC 25
 
 ********************************************************************************
 ***                                                                          ***
-*** Starting Transient analysis at 18:28:06                                  ***
+*** Starting Transient analysis at 16:25:15                                  ***
 ***                                                                          ***
-*** Analysis card: .TRAN 0 100m 0 2m                                         ***
+*** Analysis card: .TRAN 0 10m 0 2m                                          ***
 ***                                                                          ***
 ********************************************************************************
 ********************************************************************************
@@ -123,10 +122,10 @@ vto          -1
 
 Instance parameters for devices of type Capacitor
 =================================================
-Instance:    C1           C2           
-Using model: $Capacitor   $Capacitor   
+Instance:    C1           
+Using model: $Capacitor   
 
-branch       1            1            
+branch       1            
 
 
 Analysis statistics
@@ -134,11 +133,11 @@ branch       1            1
 
 Nominal temperature = 27
 Operating temperature = 27
-Total iterations = 40989
-Transient iterations = 40981
-Transient timepoints = 14462
-Accepted timepoints = 13025
-Total analysis time = 2.003
+Total iterations = 11505
+Transient iterations = 11483
+Transient timepoints = 1534
+Accepted timepoints = 1313
+Total analysis time = 0.45
 Transient time = 0
 Matrix reordering time = 0
 L-U decomposition time = 0
@@ -146,25 +145,25 @@ Matrix solve time = 0
 Load time = 0
 Transient L-U decomp time = 0
 Transient solve time = 0
-Circuit build time = 0.03
+Circuit build time = 0.02
 Simulator initialise time = 0
 Data write time = 0
 Convergence test time = 0
 LTE time = 0
-JI2 Iterations = 8
+JI2 Iterations = 22
 Diag. GMIN stepping iterations = 0
 Junc. GMIN stepping iterations = 0
 Source stepping iterations = 0
 PTA iterations = 0
-Number of matrix fill ins = -4
-Number of initial matrix elements = 109
-Circuit equations = 31
-State vector size = 82
-Number of write buffer faults = 1
+Number of matrix fill ins = -5
+Number of initial matrix elements = 99
+Circuit equations = 29
+State vector size = 80
+Number of write buffer faults = 0
 
 Run statistics
 ==============
 
-Netlist read in time = 0
-Total run time = 2.073 seconds
-Analysis concluded 16/03/2014 18:28:08
+Netlist read in time = 0.01
+Total run time = 0.57 seconds
+Analysis concluded 26/05/2014 16:25:15
