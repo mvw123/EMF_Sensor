@@ -1,15 +1,15 @@
-*************************************************************************************************************************
-***                                                                                                                   ***
-*** SIMetrix/SIMPLIS Intro Version 7.10m (x86) - 20/02/2014 21:02:23                                                  ***
-*** Platform: Windows XP                                                                                              ***
-*** Architecture: x86                                                                                                 ***
-*** Serial Number:                                                                                                    ***
-*** User:                                                                                                             ***
-***                                                                                                                   ***
-*** TITLE:   * C:\Documents and Settings\Michael Walsh\My Documents\SIMetrix\ReceiverOpAmp\ReceiverOpAmp_2k_V003.sxsch***
-*** NETLIST: C:\Documents and Settings\Michael Walsh\My Documents\SIMetrix\ReceiverOpAmp\design.net                   ***
-***                                                                                                                   ***
-*************************************************************************************************************************
+*************************************************************************************************************************************
+***                                                                                                                               ***
+*** SIMetrix/SIMPLIS Intro Version 7.10m (x86) - 31/05/2014 21:00:39                                                              ***
+*** Platform: Windows XP                                                                                                          ***
+*** Architecture: x86                                                                                                             ***
+*** Serial Number:                                                                                                                ***
+*** User:                                                                                                                         ***
+***                                                                                                                               ***
+*** TITLE:   * C:\Documents and Settings\Michael Walsh\My Documents\GitHub\EMF_Sensor\sim_emf_receiver\ReceiverOpAmp_2k_V003.sxsch***
+*** NETLIST: C:\Documents and Settings\Michael Walsh\My Documents\GitHub\EMF_Sensor\sim_emf_receiver\design.net                   ***
+***                                                                                                                               ***
+*************************************************************************************************************************************
 
 ********************************************************************************
 ***                                                                          ***
@@ -35,14 +35,14 @@ R10 PHONO_OUT C7_P 100
 R11 PHONO_OUT 0 1Meg
 R12 R12_P R12_N 100k
 C1 R2_N ANT 1u  
-C2 R2_N 0 4.7p  
+C2 R2_N 0 10p  
 C3 R3_N 0 200n  
 C4 VCC 0 100u  
 C5 R12_N 0 1u  
 C6 R2_P 0 1u  
 C7 C7_P X2_out 1u  
 C8 PRE_AMP_OUT R3_P 1.5n  
-C9 X2_out R8_P 20p  
+C9 X2_out R8_P 22p  
 .GRAPH PHONO_OUT curveLabel= PHONO_OUT nowarn=true ylog=auto xlog=auto 
 .GRAPH PRE_AMP_OUT curveLabel= PRE_AMP_OUT nowarn=true ylog=auto xlog=auto 
 .GRAPH ANT curveLabel= ANT nowarn=true ylog=auto xlog=auto 
@@ -95,7 +95,7 @@ VLN   0 92 DC 25
 
 ********************************************************************************
 ***                                                                          ***
-*** Starting AC analysis at 21:02:23                                         ***
+*** Starting AC analysis at 21:00:39                                         ***
 ***                                                                          ***
 *** Analysis card: .AC DEC 25 1 1Meg                                         ***
 ***                                                                          ***
@@ -145,7 +145,7 @@ Total iterations = 241
 Transient iterations = 0
 Transient timepoints = 0
 Accepted timepoints = 0
-Total analysis time = 0.21
+Total analysis time = 0.29
 Transient time = 0
 Matrix reordering time = 0
 L-U decomposition time = 0
@@ -153,8 +153,8 @@ Matrix solve time = 0
 Load time = 0
 Transient L-U decomp time = 0
 Transient solve time = 0
-Circuit build time = 0.04
-Simulator initialise time = 0
+Circuit build time = 0.01
+Simulator initialise time = 0.01
 Data write time = 0
 Convergence test time = 0
 LTE time = 0
@@ -172,6 +172,6 @@ Number of write buffer faults = 0
 Run statistics
 ==============
 
-Netlist read in time = 0.01
-Total run time = 0.39 seconds
-Analysis concluded 20/02/2014 21:02:23
+Netlist read in time = 0.02
+Total run time = 0.34 seconds
+Analysis concluded 31/05/2014 21:00:40

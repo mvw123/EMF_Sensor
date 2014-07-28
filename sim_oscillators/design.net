@@ -1,7 +1,7 @@
 * C:\Documents and Settings\Michael Walsh\My Documents\GitHub\EMF_Sensor\sim_oscillators\RelaxationOscillator_TL072_v4.sxsch
 *#SIMETRIX
-V1 OP_PWR_POS 0 9
 X2 R2_N C1_P OP_PWR_POS 0 SquareOutput TL072 pinnames: inp inn vsp vsn out
+V1 OP_PWR_POS 0 9
 R1 SquareOutput C1_P 20k
 R2 SquareOutput R2_N 20k
 R3 R2_N R6_N 20k

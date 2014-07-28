@@ -1,6 +1,6 @@
 ********************************************************************************************************************************************
 ***                                                                                                                                      ***
-*** SIMetrix/SIMPLIS Intro Version 7.10m (x86) - 26/05/2014 16:25:15                                                                     ***
+*** SIMetrix/SIMPLIS Intro Version 7.10m (x86) - 28/07/2014 16:29:40                                                                     ***
 *** Platform: Windows XP                                                                                                                 ***
 *** Architecture: x86                                                                                                                    ***
 *** Serial Number:                                                                                                                       ***
@@ -18,8 +18,8 @@
 ********************************************************************************
 
 #SIMETRIX
-V1 OP_PWR_POS 0 9
 X2 R2_N C1_P OP_PWR_POS 0 SquareOutput TL072 pinnames: inp inn vsp vsn out
+V1 OP_PWR_POS 0 9
 R1 SquareOutput C1_P 20k
 R2 SquareOutput R2_N 20k
 R3 R2_N R6_N 20k
@@ -79,7 +79,7 @@ VLN   0 92 DC 25
 
 ********************************************************************************
 ***                                                                          ***
-*** Starting Transient analysis at 16:25:15                                  ***
+*** Starting Transient analysis at 16:29:40                                  ***
 ***                                                                          ***
 *** Analysis card: .TRAN 0 10m 0 2m                                          ***
 ***                                                                          ***
@@ -133,11 +133,11 @@ branch       1
 
 Nominal temperature = 27
 Operating temperature = 27
-Total iterations = 11505
-Transient iterations = 11483
-Transient timepoints = 1534
-Accepted timepoints = 1313
-Total analysis time = 0.45
+Total iterations = 11168
+Transient iterations = 11146
+Transient timepoints = 1402
+Accepted timepoints = 1185
+Total analysis time = 0.38
 Transient time = 0
 Matrix reordering time = 0
 L-U decomposition time = 0
@@ -145,7 +145,7 @@ Matrix solve time = 0
 Load time = 0
 Transient L-U decomp time = 0
 Transient solve time = 0
-Circuit build time = 0.02
+Circuit build time = 0.05
 Simulator initialise time = 0
 Data write time = 0
 Convergence test time = 0
@@ -155,7 +155,7 @@ Diag. GMIN stepping iterations = 0
 Junc. GMIN stepping iterations = 0
 Source stepping iterations = 0
 PTA iterations = 0
-Number of matrix fill ins = -5
+Number of matrix fill ins = -14
 Number of initial matrix elements = 99
 Circuit equations = 29
 State vector size = 80
@@ -164,6 +164,6 @@ Number of write buffer faults = 0
 Run statistics
 ==============
 
-Netlist read in time = 0.01
-Total run time = 0.57 seconds
-Analysis concluded 26/05/2014 16:25:15
+Netlist read in time = 0
+Total run time = 0.571 seconds
+Analysis concluded 28/07/2014 16:29:41

@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title ""
-Date "18 mar 2014"
+Date "28 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -68,7 +68,9 @@ Connection ~ 7600 2600
 Wire Wire Line
 	7600 2700 7600 2600
 Wire Wire Line
-	3100 2550 3100 2150
+	3100 2550 3100 2300
+Wire Wire Line
+	3100 2300 3100 2150
 Wire Wire Line
 	1300 2500 1300 2300
 Wire Wire Line
@@ -78,7 +80,9 @@ Wire Wire Line
 Wire Wire Line
 	7100 6600 7100 6800
 Wire Wire Line
-	7100 6800 7700 6800
+	7100 6800 7400 6800
+Wire Wire Line
+	7400 6800 7700 6800
 Wire Wire Line
 	7700 6800 7700 6650
 Wire Wire Line
@@ -91,7 +95,9 @@ Wire Wire Line
 Wire Wire Line
 	5350 2500 5350 1600
 Wire Wire Line
-	3850 3500 3850 3300
+	3850 3500 3850 3400
+Wire Wire Line
+	3850 3400 3850 3300
 Wire Wire Line
 	6450 1600 7200 1600
 Connection ~ 7200 2600
@@ -107,13 +113,21 @@ Wire Wire Line
 Wire Wire Line
 	6200 3000 6200 3250
 Wire Wire Line
-	6800 2600 7800 2600
+	6800 2600 7200 2600
+Wire Wire Line
+	7200 2600 7300 2600
+Wire Wire Line
+	7300 2600 7600 2600
+Wire Wire Line
+	7600 2600 7800 2600
 Wire Wire Line
 	6000 3500 5350 3500
 Wire Wire Line
 	5350 3500 5350 2700
 Wire Wire Line
-	3850 2800 3850 2600
+	3850 2800 3850 2700
+Wire Wire Line
+	3850 2700 3850 2600
 Wire Wire Line
 	3850 2100 3850 1950
 Wire Wire Line
@@ -121,13 +135,19 @@ Wire Wire Line
 Wire Wire Line
 	7700 6150 7700 6050
 Wire Wire Line
-	7700 6050 7100 6050
+	7700 6050 7400 6050
+Wire Wire Line
+	7400 6050 7100 6050
 Wire Wire Line
 	7100 6050 7100 6200
 Wire Wire Line
-	3100 5250 3100 5600
+	3100 5250 3100 5500
 Wire Wire Line
-	3100 6100 3100 6550
+	3100 5500 3100 5600
+Wire Wire Line
+	3100 6100 3100 6300
+Wire Wire Line
+	3100 6300 3100 6550
 Wire Wire Line
 	6300 4100 6300 3900
 Wire Wire Line
@@ -151,7 +171,13 @@ Wire Wire Line
 Wire Wire Line
 	7600 3200 7600 3350
 Wire Wire Line
-	8400 4500 6900 4500
+	8400 4500 8000 4500
+Wire Wire Line
+	8000 4500 7400 4500
+Wire Wire Line
+	7400 4500 7000 4500
+Wire Wire Line
+	7000 4500 6900 4500
 Wire Wire Line
 	8000 5400 8000 5200
 Wire Wire Line
@@ -330,13 +356,13 @@ F 3 "" H 3100 2150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5550 4600 0    60   ~ 0
-IN2-
-Text Label 5550 4400 0    60   ~ 0
 IN2+
-Text Label 4900 2700 0    60   ~ 0
-IN1-
-Text Label 5000 1600 0    60   ~ 0
+Text Label 5550 4400 0    60   ~ 0
+IN2-
+Text Label 5400 2700 0    60   ~ 0
 IN1+
+Text Label 5400 2500 0    60   ~ 0
+IN1-
 Text Label 7500 4500 0    60   ~ 0
 SINUSOID
 $Comp
@@ -683,13 +709,19 @@ Wire Wire Line
 Wire Wire Line
 	6500 3250 6500 3150
 Wire Wire Line
-	5050 2700 5800 2700
+	5050 2700 5350 2700
 Wire Wire Line
-	3850 2700 4550 2700
+	5350 2700 5800 2700
+Wire Wire Line
+	3850 2700 4250 2700
+Wire Wire Line
+	4250 2700 4550 2700
 Connection ~ 4250 2700
 Connection ~ 3850 2700
 Wire Wire Line
-	4600 1600 5950 1600
+	4600 1600 5350 1600
+Wire Wire Line
+	5350 1600 5950 1600
 Connection ~ 5350 1600
 Wire Wire Line
 	5350 2500 5800 2500
@@ -705,7 +737,9 @@ Wire Wire Line
 	7000 3750 7000 4500
 Connection ~ 7000 4500
 Wire Wire Line
-	5100 4400 5900 4400
+	5100 4400 5350 4400
+Wire Wire Line
+	5350 4400 5900 4400
 Wire Wire Line
 	5350 4600 5900 4600
 Wire Wire Line
@@ -713,17 +747,23 @@ Wire Wire Line
 Wire Wire Line
 	5350 5850 7400 5850
 Wire Wire Line
-	7400 5650 7400 6050
+	7400 5650 7400 5850
+Wire Wire Line
+	7400 5850 7400 6050
 Connection ~ 7400 6050
 Connection ~ 7400 5850
 Wire Wire Line
 	7400 7050 4150 7050
 Wire Wire Line
-	4150 7050 4150 4400
+	4150 7050 4150 5500
+Wire Wire Line
+	4150 5500 4150 4400
 Wire Wire Line
 	4150 4400 4600 4400
 Wire Wire Line
-	3100 5500 4150 5500
+	3100 5500 3600 5500
+Wire Wire Line
+	3600 5500 4150 5500
 Connection ~ 3100 5500
 Connection ~ 4150 5500
 Connection ~ 3600 5500
@@ -747,4 +787,8 @@ Wire Wire Line
 Wire Wire Line
 	5350 3750 5350 4400
 Connection ~ 5350 4400
+Text Notes 4300 1100 0    60   ~ 0
+The capacitor C201 can either be grounded as shown or taken to the virtual ground of R203, R204. Either way the circuit will oscillate. 
+Text Notes 4300 1250 0    60   ~ 0
+Circuit is setup for 2kHz operation. 
 $EndSCHEMATC
