@@ -1,10 +1,10 @@
-EMF_Sensor [NOT TESTED YET]
+EMF_Sensor
 ==========
 Brief
 -----
-This is an open hardware design for an EMF sensor and transmitter circuit (sometimes known as an ELF sensor or warbler or a tone generator and detector or wire follower) which can be used to send a 2kHz audible tone down a wire with the transmitter and sense the presence of the wire with the receiver. Its uses are for hidden wire and wire boundary detection. 
+This is an open hardware design for an EMF sensor and transmitter circuit (sometimes known as an ELF sensor or warbler or a tone generator and detector or wire follower) which can be used to send a 2kHz audible tone down a wire with the transmitter and sense the presence of the wire with the receiver. It's main uses are for hidden wire and wire boundary detection. 
 
-This is NOT for connection to live mains or hazardous voltages - there are no safety caps or barriers in the circuit. 
+This is NOT for connection to LIVE mains or hazardous voltages - there are no safety caps or barriers in the circuit. 
 
 The circuit is created with Ki-CAD, an open source EDA tool for schematic capture and PCB layout. There are two boards in the design seperated by a snap off region. One for the transmitter, one for the receiver. The design should be battery powered from a 9v battery for each board.
 
